@@ -1,0 +1,33 @@
+_id: req_483990a5c19c40c488de7c19b5ff3078
+type: Request
+parentId: fld_c8d1534e8b974620a487c34b4d0e53e1
+modified: 1676875958746
+created: 1676874780112
+url: "{{ _.base_url }}{{ _.auth_port }}/users"
+name: Get Users
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_2fe718a768d14be3b8fec2ad27968844
+    name: limit
+    value: "20"
+    description: ""
+  - id: pair_2e82beb1bb7a4459a7f881345017e167
+    name: page
+    value: "1"
+    description: ""
+headers:
+  - id: pair_c4a4b795c0e14133a1e3f907ce38e814
+    name: Authorization
+    value: Bearer {{ _.super_root_token }}
+    description: ""
+authentication: {}
+metaSortKey: -1676875543447.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

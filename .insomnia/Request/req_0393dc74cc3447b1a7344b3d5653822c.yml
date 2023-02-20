@@ -1,0 +1,21 @@
+_id: req_0393dc74cc3447b1a7344b3d5653822c
+type: Request
+parentId: fld_9487a72949e34bdfbfa4065fac922c20
+modified: 1676875826047
+created: 1676875789245
+url: "{{ _.base_url }}{{ _.auth_port }}/data-manager/root-users"
+name: New Request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1676875789245
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

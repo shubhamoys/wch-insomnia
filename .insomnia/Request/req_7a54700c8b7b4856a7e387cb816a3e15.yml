@@ -1,0 +1,25 @@
+_id: req_7a54700c8b7b4856a7e387cb816a3e15
+type: Request
+parentId: fld_c8d1534e8b974620a487c34b4d0e53e1
+modified: 1676875992212
+created: 1676874998916
+url: ""
+name: Register User
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b2652c896d9e42a7a1619ecc1a09729f
+    name: Authorization
+    value: Bearer {{ _.super_root_token }}
+    description: ""
+authentication: {}
+metaSortKey: -1676875543497.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

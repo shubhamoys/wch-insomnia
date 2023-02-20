@@ -1,0 +1,22 @@
+_id: env_86ca25d879ee4ffcb712809c7b03f766
+type: Environment
+parentId: env_2a97648d34b6a9ae6a00db918b9b136708b4368f
+modified: 1676875947476
+created: 1676875031007
+name: wch-localhost
+data:
+  env: localhost
+  auth_port: 4101
+  lead_port: 4102
+  base_url: "http://localhost:"
+  super_root_token: "12312312312312312323"
+dataPropertyOrder:
+  "&":
+    - env
+    - auth_port
+    - lead_port
+    - base_url
+    - super_root_token
+color: null
+isPrivate: false
+metaSortKey: 1676875031007
